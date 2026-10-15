@@ -10,7 +10,6 @@ import IconsResolver from 'unplugin-icons/resolver'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/3Dspace/',
   plugins: [
     vue(),
     vueDevTools(),

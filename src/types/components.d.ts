@@ -11,7 +11,6 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
-    CeleInfoView: typeof import('../components/NeoInfoView.vue/index.js')['default']
     CeleView: typeof import('./../components/CeleView.vue')['default']
     ElAside: typeof import('element-plus/es')['ElAside']
     ElButton: typeof import('element-plus/es')['ElButton']
